@@ -4,14 +4,16 @@ A personal web design system for pulling reusable website sections, layout recip
 
 ## What Is Inside
 
-- `index.html` - visual overview of the system
+- `index.html` - premium marketplace-style overview of the system
+- `websites.html` - complete website examples assembled from the system
 - `components.html` - browsable component catalog
 - `layouts.html` - reusable layout arrangement recipes
-- `tokens.html` - shared design-token reference
-- `components/` - standalone HTML/CSS component folders with metadata
+- `tokens.html` - shared color, typography, spacing, radius, shadow, and motion rules
+- `components/` - standalone component folders with HTML, CSS, and metadata
+- `examples/` - complete website directions built from the components
 - `layouts/` - reusable layout recipes
 - `tokens/tokens.css` - portable CSS custom properties
-- `bin/dps-add.mjs` - helper for copying one component or layout into another project
+- `bin/dps-add.mjs` - small helper for copying one component or layout into another project
 
 ## List Available Parts
 
@@ -29,10 +31,19 @@ node ./bin/dps-add.mjs navigation/colored-pill-navbar --out=./vendor/design-syst
 
 - `navigation/colored-pill-navbar`
 - `hero/launch-dashboard-hero`
+- `hero/finance-floating-cards`
 - `features/metro-feature-grid`
+- `scroll/sticky-stacking-cards`
 - `pricing/contrast-pricing-table`
 - `testimonials/fanned-testimonial-cards`
 - `footer/stacked-footer`
+
+## Current Website Examples
+
+- `vaultix` - Startup & SaaS
+- `victoria` - Professional Services
+- `aeline` - Business
+- `anderdark` - Portfolio
 
 ## Current Layouts
 
