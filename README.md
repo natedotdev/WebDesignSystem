@@ -1,19 +1,19 @@
 # Design Pixel System
 
-A personal web design system for pulling reusable website sections, layout recipes, and design tokens into future builds.
+A Monodesk-inspired personal web design system for pulling reusable website sections, layout recipes, and design tokens into future builds.
 
 ## What Is Inside
 
-- `index.html` - premium marketplace-style overview of the system
+- `index.html` - Monodesk-inspired marketplace-style overview of the system
 - `websites.html` - complete website examples assembled from the system
+- `previews/` - standalone full website previews that open outside the catalog frame
 - `components.html` - browsable component catalog
 - `layouts.html` - reusable layout arrangement recipes
 - `tokens.html` - shared color, typography, spacing, radius, shadow, and motion rules
 - `components/` - standalone component folders with HTML, CSS, and metadata
-- `examples/` - complete website directions built from the components
 - `layouts/` - reusable layout recipes
 - `tokens/tokens.css` - portable CSS custom properties
-- `bin/dps-add.mjs` - small helper for copying one component or layout into another project
+- `bin/dps-add.mjs` - helper for copying one component or layout into another project
 
 ## List Available Parts
 
@@ -27,28 +27,14 @@ npm run list
 node ./bin/dps-add.mjs navigation/colored-pill-navbar --out=./vendor/design-system
 ```
 
-## Current Components
-
-- `navigation/colored-pill-navbar`
-- `hero/launch-dashboard-hero`
-- `hero/finance-floating-cards`
-- `features/metro-feature-grid`
-- `scroll/sticky-stacking-cards`
-- `pricing/contrast-pricing-table`
-- `testimonials/fanned-testimonial-cards`
-- `footer/stacked-footer`
-
 ## Current Website Examples
 
-- `vaultix` - Startup & SaaS
-- `victoria` - Professional Services
-- `aeline` - Business
-- `anderdark` - Portfolio
-
-## Current Layouts
-
-- `metro-grid`
-- `split-proof`
+- `freelancer` - Independent designer portfolio
+- `photography-studio` - Photography and creative studio
+- `church` - Church and community site
+- `restaurant` - Restaurant and reservations
+- `fitness` - Fitness coach and classes
+- `nonprofit` - Nonprofit and donations
 
 ## Build Rule
 
