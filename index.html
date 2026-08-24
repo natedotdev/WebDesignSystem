@@ -1,84 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Design System</title>
-    <link rel="stylesheet" href="/assets/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal web design system for reusable website sections, layouts, and interface patterns.">
+  <title>Design Pixel System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <header>
-        <img src="/assets/media/images/DESIGN PIXEL_LOGO-01.png" alt="" class="logo" width="200px">
-        <h2>Design Pixel</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="component.html">Component</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1> Welcome to My Website Design System Site</h1>
-        <h2>Project Goals</h2>
-        <p>In this project, I build my own basic design system for all future websites. 
-            In essence, I will be building commponent and designs partern to help me build <strong>MORE</strong> websites in the future! 
-            On this site, I will collect all the colors, fonts, and some of the repeating styles to use in up coming project.
-        </p>
-        <div class="siteLogo">
-            <p>
-                Site Logo Design System was used on :----
-            </p>
-        </div>
-        <div class="mostUsed">
-            <h2>Most Used Design System</h2>
-            <a href="#">
-                <div class="card card1">
-                    <h3>Enter Shop</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="card card2">
-                    <h3>Enter Shop</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="card card3">
-                    <h3>Enter Shop</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="card card4">
-                    <h3>Enter Shop</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </a>
-        </div>
-        <div class="Reasons row">
-            <div class="col">
-                <h3>The Best Part of Having a Design System</h3>
-                <ul>
-                    <li>Some Reasons</li>
-                    <li>More Reasons</li>
-                    <li>And More Reasons</li>
-                </ul>
-            </div>
-            <div class="col">
-                <img src="/assets/media/images/DESIGN PIXEL_LOGO-01.png" alt="Some Image" width="20">
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div>
-            Image here and @natedotdev 2024
-        </div>
-        <div class="social">
-            Social media here
-        </div>
-        
-    </footer>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Design Pixel System home"><span class="brand-mark">DP</span><span>Design Pixel System</span></a>
+    <nav class="site-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="components.html">Components</a><a href="layouts.html">Layouts</a><a href="tokens.html">Tokens</a></nav>
+  </header>
+  <main>
+    <section class="hero-shell">
+      <div class="hero-copy"><p class="eyebrow">Reusable website parts</p><h1>Build faster by pulling polished sections from your own design library.</h1><p class="lead">A practical web design system for navigation bars, heroes, cards, pricing blocks, testimonials, layout recipes, and full-page composition patterns.</p><div class="hero-actions"><a class="button primary" href="components.html">Browse components</a><a class="button secondary" href="layouts.html">View layouts</a></div></div>
+      <div class="hero-stage" aria-label="Component preview collage"><div class="preview-window"><div class="window-bar"><span></span><span></span><span></span></div><div class="mini-nav"><b>Studio</b><span>Work</span><span>Pricing</span><span>Contact</span></div><div class="mini-hero"><p>Launch system</p><h2>Calm pages with sharp conversion paths.</h2></div><div class="mini-grid"><span></span><span></span><span></span><span></span></div></div></div>
+    </section>
+    <section class="section-band"><div class="section-heading"><p class="eyebrow">System map</p><h2>Everything is designed to be pulled apart.</h2><p>Each component folder contains standalone markup, styles, metadata, and usage notes so you can copy only what a new site needs.</p></div><div class="stat-grid"><article><strong>06</strong><span>Starter components</span></article><article><strong>02</strong><span>Layout recipes</span></article><article><strong>06</strong><span>Token groups</span></article><article><strong>100%</strong><span>Framework-free HTML/CSS</span></article></div></section>
+    <section class="component-rail"><div class="section-heading compact"><p class="eyebrow">First collection</p><h2>Patterns inspired by modern section libraries and multipurpose templates.</h2></div><div class="card-grid"><a class="library-card accent-green" href="components.html#colored-pill-navbar"><span>Navigation</span><h3>Colored Pill Navbar</h3><p>A centered pill menu with clear calls to action and mobile stacking.</p></a><a class="library-card accent-blue" href="components.html#launch-dashboard-hero"><span>Hero</span><h3>Launch Dashboard Hero</h3><p>A software-style hero with product cards and metric blocks.</p></a><a class="library-card accent-coral" href="components.html#metro-feature-grid"><span>Features</span><h3>Metro Feature Grid</h3><p>Editorial tile layout for services, capabilities, and benefits.</p></a><a class="library-card accent-ink" href="components.html#contrast-pricing-table"><span>Pricing</span><h3>Contrast Pricing Table</h3><p>Three-tier pricing with one emphasized plan and scannable features.</p></a></div></section>
+    <section class="workflow"><div><p class="eyebrow">How this repo should grow</p><h2>Study a design, extract the pattern, rebuild it as a reusable part.</h2></div><ol class="steps"><li><strong>Capture</strong><span>Save the reference URL, screenshot notes, and section type.</span></li><li><strong>Abstract</strong><span>Name the layout behavior, content slots, tokens, and responsive rules.</span></li><li><strong>Rebuild</strong><span>Create original HTML/CSS that carries the same design idea.</span></li><li><strong>Catalog</strong><span>Add it to the preview site with metadata and copy instructions.</span></li></ol></section>
+  </main>
+  <footer class="site-footer"><span>Design Pixel System</span><span>Reusable website components for faster builds.</span></footer>
 </body>
 </html>

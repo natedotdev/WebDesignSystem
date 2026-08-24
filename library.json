@@ -1,0 +1,1 @@
+{"name":"Design Pixel System","description":"Reusable website components, section patterns, layout recipes, and design tokens.","components":["navigation/colored-pill-navbar","hero/launch-dashboard-hero","features/metro-feature-grid","pricing/contrast-pricing-table","testimonials/fanned-testimonial-cards","footer/stacked-footer"],"layouts":["metro-grid","split-proof"]}
